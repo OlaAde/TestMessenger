@@ -12,6 +12,10 @@
 		F6F1344021DF9D25006830B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F1343E21DF9D25006830B4 /* Main.storyboard */; };
 		F6F1344221DF9D26006830B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F1344121DF9D26006830B4 /* Assets.xcassets */; };
 		F6F1344521DF9D26006830B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F1344321DF9D26006830B4 /* LaunchScreen.storyboard */; };
+		F6F1344D21DFA701006830B4 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1344C21DFA701006830B4 /* ChatMessageCell.swift */; };
+		F6F1345121DFCAE0006830B4 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1345021DFCAE0006830B4 /* extensions.swift */; };
+		F6F1345321DFD7CB006830B4 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1345221DFD7CB006830B4 /* CustomViews.swift */; };
+		F6F1345721DFDA0F006830B4 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F1345621DFDA0F006830B4 /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F6F1344121DF9D26006830B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6F1344421DF9D26006830B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6F1344621DF9D26006830B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F1344C21DFA701006830B4 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
+		F6F1345021DFCAE0006830B4 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		F6F1345221DFD7CB006830B4 /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		F6F1345621DFDA0F006830B4 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		F6F1343921DF9D25006830B4 /* TextMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				F6F1344C21DFA701006830B4 /* ChatMessageCell.swift */,
 				F6F1343A21DF9D25006830B4 /* AppDelegate.swift */,
 				F6F1343C21DF9D25006830B4 /* ViewController.swift */,
 				F6F1343E21DF9D25006830B4 /* Main.storyboard */,
 				F6F1344121DF9D26006830B4 /* Assets.xcassets */,
 				F6F1344321DF9D26006830B4 /* LaunchScreen.storyboard */,
 				F6F1344621DF9D26006830B4 /* Info.plist */,
+				F6F1345021DFCAE0006830B4 /* extensions.swift */,
+				F6F1345221DFD7CB006830B4 /* CustomViews.swift */,
+				F6F1345621DFDA0F006830B4 /* ChatMessage.swift */,
 			);
 			path = TextMessenger;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F1345121DFCAE0006830B4 /* extensions.swift in Sources */,
+				F6F1344D21DFA701006830B4 /* ChatMessageCell.swift in Sources */,
 				F6F1343D21DF9D25006830B4 /* ViewController.swift in Sources */,
+				F6F1345721DFDA0F006830B4 /* ChatMessage.swift in Sources */,
+				F6F1345321DFD7CB006830B4 /* CustomViews.swift in Sources */,
 				F6F1343B21DF9D25006830B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
